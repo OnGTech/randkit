@@ -1,5 +1,6 @@
 function initZoomable(){
     document.querySelectorAll('.zoomable').forEach((e)=>{
+        e.style.cursor = 'pointer';
         e.onclick = () =>{
             let holder = document.createElement('div');
             holder.style.position = 'absolute';
