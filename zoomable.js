@@ -14,10 +14,13 @@ function initZoomable(){
             document.body.style.overflow = 'hidden';
             let cls = document.createElement('div');
             cls.innerHTML = '<img src="https://ongtech.github.io/randkit/images/close-btn-rd.png" width="50" height="50">';
-            cls.style.fontSize = '32px !important';
+            /* cls.style.fontSize = '32px !important';
             cls.style.padding = '24px';
             cls.style.color = '#ffffff';
-            cls.style.textAlign = 'right';
+            cls.style.textAlign = 'right'; */
+            cls.style.position = 'fixed';
+            cls.style.right = '2%';
+            cls.style.top = '2%';
             cls.style.cursor = 'pointer';
             holder.append(cls);
     
