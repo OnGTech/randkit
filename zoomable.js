@@ -96,10 +96,12 @@ function initZoomable(){
                 holder.remove();
                 document.body.style.overflow = 'auto';
             }
-            /* holder.onclick = () =>{
-                holder.remove();
+            holder.onclick = (e) =>{
+                if(e.srcElement == holder){
+                    holder.remove();
                 document.body.style.overflow = 'auto';
-            } */
+                }
+            }
         }
     });
 }
