@@ -97,7 +97,7 @@ function initZoomable(){
                 document.body.style.overflow = 'auto';
             }
             holder.onclick = function(e){
-                if(e.srcElement == holder){
+                if(e.target == holder){
                     holder.remove();
                 document.body.style.overflow = 'auto';
                 }
