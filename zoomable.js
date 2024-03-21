@@ -7,7 +7,7 @@ function initZoomable(){
             holder.style.left = '0';
             holder.style.top = window.scrollY + 'px';
             holder.style.width = '100vw';
-            holder.style.height = '100vh';
+            holder.style.height = '100%';
             holder.style.background = 'rgba(0, 0, 0, .90)';
             holder.style.zIndex = '900';
             document.body.style.overflow = 'hidden';
