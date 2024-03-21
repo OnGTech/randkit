@@ -12,8 +12,8 @@ function initZoomable(){
             holder.style.background = 'rgba(0, 0, 0, .90)';
             holder.style.zIndex = '900';
             document.body.style.overflow = 'hidden';
-            let cls = document.createElement('h2');
-            cls.innerHTML = 'X';
+            let cls = document.createElement('div');
+            cls.innerHTML = '<img src="https://ongtech.github.io/randkit/images/close-btn-rd.png" width="50" height="50">';
             cls.style.fontSize = '32px !important';
             cls.style.padding = '24px';
             cls.style.color = '#ffffff';
