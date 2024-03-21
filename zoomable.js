@@ -36,6 +36,7 @@ function initZoomable(){
             vwr.style.backgroundSize = 'contain';
             vwr.style.backgroundPosition = 'center';
             vwr.style.backgroundRepeat = 'no-repeat';
+            vwr.style.borderRadius = "1rem";
             holder.append(vwr);
             document.body.append(holder);
 
