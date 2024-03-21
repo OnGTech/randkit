@@ -3,9 +3,10 @@ function initZoomable(){
         e.style.cursor = 'pointer';
         e.onclick = () =>{
             let holder = document.createElement('div');
-            holder.style.position = 'absolute';
+            holder.style.position = 'fixed';
             holder.style.left = '0';
-            holder.style.top = window.scrollY + 'px';
+            holder.style.top = '0';
+            // holder.style.top = window.scrollY + 'px';
             holder.style.width = '100vw';
             holder.style.height = '100%';
             holder.style.background = 'rgba(0, 0, 0, .90)';
