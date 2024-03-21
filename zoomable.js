@@ -49,7 +49,7 @@ function initZoomable(){
             act_wrp.style.display = 'flex';
 
             act_wrp.innerHTML = `
-            <a href="javascript:void(0)" id="z_p_btn">prev.</a> <a href="javascript:void(0)" id="z_n_btn">next</a>
+            <a href="javascript:void(0)" id="z_p_btn"><img src="https://ongtech.github.io/randkit/images/back-btn-rd.png" width="50" height="50"></a> <a href="javascript:void(0)" id="z_n_btn">next</a>
             `;
 
             
