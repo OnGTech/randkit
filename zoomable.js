@@ -17,6 +17,14 @@ window.addEventListener('DOMContentLoaded', ()=>{
                 nxt_btn.click();
             }
         }
+        if (e.key === 'Escape') {
+            
+            const cls_btn = document.querySelector('.cls_btn');
+            if (cls_btn) {
+                
+                cls_btn.click();
+            }
+        }
     });
 });
 
@@ -41,6 +49,7 @@ function initZoomable(){
             cls.style.color = '#ffffff';
             cls.style.textAlign = 'right'; */
             cls.style.position = 'fixed';
+            cls.setAttribute('class', 'cls_btn');
             cls.style.right = '2%';
             cls.style.top = '2%';
             cls.style.cursor = 'pointer';
