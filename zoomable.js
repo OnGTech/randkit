@@ -1,3 +1,25 @@
+
+window.addEventListener('DOMContentLoaded', ()=>{
+    document.addEventListener('keydown', function(e){
+        if (e.key === 'ArrowLeft') {
+            
+            const prev_btn = document.querySelector('#z_p_btn');
+            if (prev_btn) {
+                
+                prev_btn.click();
+            }
+        }
+        if (e.key === 'ArrowRight') {
+            
+            const nxt_btn = document.querySelector('#z_n_btn');
+            if (nxt_btn) {
+                
+                nxt_btn.click();
+            }
+        }
+    });
+});
+
 function initZoomable(){
     document.querySelectorAll('.zoomable').forEach((e)=>{
         e.style.cursor = 'pointer';
